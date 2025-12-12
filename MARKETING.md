@@ -311,4 +311,3 @@ Track submissions and results:
 
 ---
 
-*Last updated: December 2024*
