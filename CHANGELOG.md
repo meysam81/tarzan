@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/meysam81/tarzan/compare/v1.1.0...v1.1.1) (2025-12-13)
+
+
+### Bug Fixes
+
+* freeze bun lockfile ([aa40a01](https://github.com/meysam81/tarzan/commit/aa40a013b97790cbba2c2108c6d574ee69d1739e))
+
 ## [1.1.0](https://github.com/meysam81/tarzan/compare/v1.0.2...v1.1.0) (2025-06-01)
 
 
