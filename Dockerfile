@@ -5,7 +5,7 @@ WORKDIR /app
 RUN --mount=type=bind,source=package.json,target=package.json \
     --mount=type=bind,source=bun.lock,target=bun.lock \
     --mount=type=cache,target=/root/.bun \
-    bun install
+    bun install --frozen-lockfile
 
 ARG VITE_WEBSOCKET_URL \
     VITE_INBOUND_EMAIL_ADDRESS
