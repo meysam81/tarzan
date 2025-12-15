@@ -20,7 +20,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: 1.24
+          go-version: 1.25
       - name: Create dummy frontend
         run: |
           mkdir dist
@@ -38,7 +38,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: 1.24
+          go-version: 1.25
       - name: Install hurl
         run: |
           INSTALL_DIR=/tmp
